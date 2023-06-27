@@ -1,0 +1,25 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.niyaj.popos",
+    "sha256_cert_fingerprints":
+    ["FA:E1:F5:3A:7F:BD:7E:C9:0C:A8:3E:27:75:F5:C3:FB:B6:B0:0F:55:9E:0C:B6:CA:19:94:70:FC:0A:D6:BF:33"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "web",
+    "site": "https://niyajali.github.io/niyajali/"
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.niyaj.popos",
+    "sha256_cert_fingerprints":
+    ["FA:E1:F5:3A:7F:BD:7E:C9:0C:A8:3E:27:75:F5:C3:FB:B6:B0:0F:55:9E:0C:B6:CA:19:94:70:FC:0A:D6:BF:33"]
+  }
+}]
