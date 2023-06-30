@@ -37,6 +37,8 @@ and frameworks.
 #### Languages
 
 <span> 
+    <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&color=black" alt="kotlin">
+    <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&color=red" alt="android">
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" alt="java">
   <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="php">
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="javascript">
@@ -47,6 +49,7 @@ and frameworks.
 #### Frameworks
 
 <span>
+    <img src="https://img.shields.io/badge/Jetpack%20Compose-3DFAFF?style=for-the-badge&logo=jetpackcompose&logoColor=4285F4" alt="jetpack-compose">
   <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="laravel">
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="react">
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="nodejs">
