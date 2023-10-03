@@ -98,7 +98,7 @@ and frameworks.
  </br>
   <img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=niyajali&exclude_repo=Portfolio,HomePal&langs_count=7&layout=compact&bg_color=transparent"  alt=""/>
  </br>
-  <img src="resources/ezgif.com-optimize.gif" alt="Popos Application GIF">
+  <img src="resources/screenshots.gif" alt="Popos Application GIF">
 </p>
   </td>
  </tr>
