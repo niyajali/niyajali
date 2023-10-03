@@ -83,7 +83,9 @@ and frameworks.
 </span>
 
 <span>
+    <a href="https://play.google.com/store/apps/details?id=com.niyaj.popos&pcampaignid=web_share" target="_blank">
     <img src="resources/popos-graphics.png" alt="Popos Highlight App">
+    </a>
 </span>
 
 </td>
@@ -98,7 +100,9 @@ and frameworks.
  </br>
   <img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=niyajali&exclude_repo=Portfolio,HomePal&langs_count=7&layout=compact&bg_color=transparent"  alt=""/>
  </br>
+ <a href="https://play.google.com/store/apps/details?id=com.niyaj.popos&pcampaignid=web_share" target="_blank">
   <img src="resources/screenshots.gif" alt="Popos Application GIF">
+ </a>
 </p>
   </td>
  </tr>
