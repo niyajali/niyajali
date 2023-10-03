@@ -83,7 +83,7 @@ and frameworks.
 </span>
 
 <span>
-    <img src="resources/main.png" alt="Popos Highlight App">
+    <img src="resources/popos-graphics.png" alt="Popos Highlight App">
 </span>
 
 </td>
@@ -97,9 +97,8 @@ and frameworks.
   <img width="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=niyajali" alt=""/>
  </br>
   <img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=niyajali&exclude_repo=Portfolio,HomePal&langs_count=7&layout=compact&bg_color=transparent"  alt=""/>
-    <br>
-<img src="resources/ezgif.com-optimize.gif" alt="Popos Application GIF">
-<img src="resources/feature-graphics.png" alt="Feature Graphics">
+ </br>
+  <img src="resources/ezgif.com-optimize.gif" alt="Popos Application GIF">
 </p>
   </td>
  </tr>
