@@ -1,7 +1,5 @@
-<h1 align="center">Hi 👋, I'm <a href="https://github.com/niyajali/" target="blank">
+<h1 align="center">Hi 👋, I'm <a href="https://github.com/niyajali/" target="_blank">
 Niyaj</a></h1>
-
-<img src="resources/line-neon.gif" width="100%" alt="snake"/>
 
 ### About Me
 
