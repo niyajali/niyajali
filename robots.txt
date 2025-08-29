@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Allow all web crawlers access to all content
+Disallow: /assets/
+
+# Sitemap location
+Sitemap: https://niyajali.github.io/niyajali/sitemap.xml
+
+# Crawl delay (optional)
+Crawl-delay: 1

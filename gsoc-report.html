@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Google Summer of Code 2025 Final Report - Enhancing Kotlin Multiplatform App Template Framework">
+    <title>GSoC 2025 Final Report - Sk Niyaj Ali</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/report.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/png" href="https://github.com/niyajali.png">
+    <meta name="theme-color" content="#667eea">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="GSoC Report">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="index.html">← Back to Portfolio</a></li>
+                <li><a href="#overview" class="nav-link">Overview</a></li>
+                <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li><a href="#contributions" class="nav-link">Contributions</a></li>
+                <li><a href="#impact" class="nav-link">Impact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="report-header">
+        <div class="container">
+            <div class="header-content">
+                <h1>Google Summer of Code 2025 Final Report</h1>
+                <div class="report-meta">
+                    <div class="meta-grid">
+                        <div class="meta-item">
+                            <span class="label">Student:</span>
+                            <span class="value">Sk Niyaj Ali</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="label">Mentor:</span>
+                            <span class="value">Rajan Maurya</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="label">Organization:</span>
+                            <span class="value">The Mifos Initiative</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="label">Project:</span>
+                            <span class="value">Enhancing Kotlin Multiplatform App Template Framework</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="label">Project Size:</span>
+                            <span class="value">Large (350 hours)</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="label">Duration:</span>
+                            <span class="value">May 2025 - August 2025</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="report-main">
+        <div class="container">
+            <!-- Project Overview -->
+            <section id="overview" class="report-section">
+                <h2>Project Overview</h2>
+                <div class="content-card">
+                    <p>The Kotlin Multiplatform (KMP) Multi-Module Project Generator serves as a foundational tool for creating cross-platform applications within the Mifos Initiative ecosystem. This project aimed to enhance the existing template framework by implementing comprehensive improvements that streamline development workflows, improve code quality, and provide robust infrastructure components for building production-ready applications across Android, iOS, Desktop, and Web platforms.</p>
+                    
+                    <div class="highlights-grid">
+                        <div class="highlight-card">
+                            <h4>20+ Pull Requests</h4>
+                            <p>Successfully merged comprehensive enhancements</p>
+                        </div>
+                        <div class="highlight-card">
+                            <h4>4 Platforms</h4>
+                            <p>Android, iOS, Desktop, Web support</p>
+                        </div>
+                        <div class="highlight-card">
+                            <h4>Multiple Modules</h4>
+                            <p>Keystore, Analytics, UI, Platform modules</p>
+                        </div>
+                        <div class="highlight-card">
+                            <h4>350+ Hours</h4>
+                            <p>Dedicated development time</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Goals and Objectives -->
+            <section class="report-section">
+                <h2>Goals and Objectives</h2>
+                <div class="content-card">
+                    <p>The primary objective was to transform the KMP Project Generator from a basic template into a comprehensive development toolkit. The project focused on addressing key challenges faced by developers when creating cross-platform applications, including inconsistent configurations, manual setup processes, limited automation, and fragmented infrastructure components.</p>
+                    
+                    <div class="objectives-list">
+                        <div class="objective-item">
+                            <h4>Build System Infrastructure</h4>
+                            <p>Implementation of advanced keystore management and configuration automation</p>
+                        </div>
+                        <div class="objective-item">
+                            <h4>Analytics Integration</h4>
+                            <p>Addition of comprehensive analytics capabilities with Firebase integration</p>
+                        </div>
+                        <div class="objective-item">
+                            <h4>Network Layer Enhancement</h4>
+                            <p>Development of robust networking infrastructure with proper error handling</p>
+                        </div>
+                        <div class="objective-item">
+                            <h4>Platform Module System</h4>
+                            <p>Creation of a unified platform abstraction layer</p>
+                        </div>
+                        <div class="objective-item">
+                            <h4>Documentation and Tooling</h4>
+                            <p>Comprehensive documentation and automated tooling improvements</p>
+                        </div>
+                        <div class="objective-item">
+                            <h4>Dependency Management</h4>
+                            <p>Streamlined dependency handling and version management</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Key Achievements -->
+            <section id="achievements" class="report-section">
+                <h2>Key Achievements</h2>
+                
+                <!-- Build Logic and Keystore Management -->
+                <div class="achievement-category">
+                    <h3>Build Logic and Keystore Management System</h3>
+                    <p>A sophisticated keystore management system was implemented to automate Android app signing processes:</p>
+                    
+                    <div class="pr-grid">
+                        <div class="pr-card">
+                            <div class="pr-header">
+                                <h4>SecretsEnvUpdateTask Implementation</h4>
+                                <a href="https://github.com/openMF/kmp-project-template/pull/91" class="pr-link" target="_blank">PR #91</a>
+                            </div>
+                            <ul>
+                                <li>Developed comprehensive task for managing secrets.env file updates with base64 encoding capabilities</li>
+                                <li>Implemented support for multiline value formatting and automated backup functionality</li>
+                                <li>Added merge capabilities for existing secrets while preserving comments</li>
+                                <li>Ensured GitHub CLI compatibility for seamless CI/CD integration</li>
+                                <li>Created comprehensive test suite covering file creation, update scenarios, and validation</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="pr-card">
+                            <div class="pr-header">
+                                <h4>ConfigurationFileUpdatesTask Integration</h4>
+                                <a href="https://github.com/openMF/kmp-project-template/pull/90" class="pr-link" target="_blank">PR #90</a>
+                            </div>
+                            <ul>
+                                <li>Created automated configuration updates for Fastlane and Gradle build files</li>
+                                <li>Integrated keystore management with existing build workflows</li>
+                                <li>Implemented generateKeystoresAndUpdateConfigs for single-step execution</li>
+                                <li>Added extensive unit testing for configuration file operations</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="pr-card">
+                            <div class="pr-header">
+                                <h4>KeystoreGenerationTask Development</h4>
+                                <a href="https://github.com/openMF/kmp-project-template/pull/89" class="pr-link" target="_blank">PR #89</a>
+                            </div>
+                            <ul>
+                                <li>Built automated Android keystore generation via Gradle</li>
+                                <li>Implemented configuration loading from both Gradle DSL and secrets.env files</li>
+                                <li>Added support for custom keystore parameters</li>
+                                <li>Created comprehensive test coverage for keystore generation workflows</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="pr-card">
+                            <div class="pr-header">
+                                <h4>Secrets Environment Parser</h4>
+                                <a href="https://github.com/openMF/kmp-project-template/pull/88" class="pr-link" target="_blank">PR #88</a>
+                            </div>
+                            <ul>
+                                <li>Developed robust SecretsEnvParser with heredoc support</li>
+                                <li>Implemented EnvironmentOverrideHandler for applying environment variable overrides</li>
+                                <li>Added comprehensive unit testing with JUnit 5 integration</li>
+                                <li>Updated build configuration to support JUnit 5 test execution framework</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Analytics and Tracking Infrastructure -->
+                <div class="achievement-category">
+                    <h3>Analytics and Tracking Infrastructure</h3>
+                    
+                    <div class="pr-card">
+                        <div class="pr-header">
+                            <h4>Firebase Analytics Integration</h4>
+                            <a href="https://github.com/openMF/kmp-project-template/pull/83" class="pr-link" target="_blank">PR #83</a>
+                        </div>
+                        <ul>
+                            <li>Implemented comprehensive Firebase analytics integration across all platforms</li>
+                            <li>Enhanced tracking capabilities with custom event definitions</li>
+                            <li>Created platform-specific implementations optimized for Android and iOS</li>
+                            <li>Added event logging infrastructure with proper error handling</li>
+                            <li>Integrated analytics helper interfaces with dependency injection through Koin</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Design System and UI Infrastructure -->
+                <div class="achievement-category">
+                    <h3>Design System and UI Infrastructure</h3>
+                    
+                    <div class="pr-grid">
+                        <div class="pr-card">
+                            <div class="pr-header">
+                                <h4>Design System Migration</h4>
+                                <a href="https://github.com/openMF/kmp-project-template/pull/75" class="pr-link" target="_blank">PR #75</a>
+                            </div>
+                            <ul>
+                                <li>Migrated from MifosDesignSystemProvider to modern KptMaterialTheme architecture</li>
+                                <li>Implemented Material Design 3 integration with comprehensive theming support</li>
+                                <li>Created KptTheme extensions for shapes, typography, and color systems</li>
+                                <li>Enhanced flexibility with theme DSL builders and customizable design tokens</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="pr-card">
+                            <div class="pr-header">
+                                <h4>Image Loader Optimization</h4>
+                                <a href="https://github.com/openMF/kmp-project-template/pull/86" class="pr-link" target="_blank">PR #86</a>
+                            </div>
+                            <ul>
+                                <li>Simplified image loader initialization with singleton pattern</li>
+                                <li>Enhanced default configuration with disk and memory caching</li>
+                                <li>Implemented shareable image loader instances following best practices</li>
+                                <li>Added comprehensive documentation and usage examples</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Platform and Navigation Systems -->
+                <div class="achievement-category">
+                    <h3>Platform and Navigation Systems</h3>
+                    
+                    <div class="pr-grid">
+                        <div class="pr-card">
+                            <div class="pr-header">
+                                <h4>Navigation and App Configuration Refactoring</h4>
+                                <a href="https://github.com/openMF/kmp-project-template/pull/79" class="pr-link" target="_blank">PR #79</a>
+                            </div>
+                            <ul>
+                                <li>Removed deprecated navigation components including FeatureNavHost and RootNavGraph</li>
+                                <li>Updated AppViewModel for comprehensive theme management and dynamic colors</li>
+                                <li>Added AuthenticatedNavbarNavigationViewModel and RootNavViewModel</li>
+                                <li>Enhanced ComposeApp with screen capture prevention and theme mode switching</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="pr-card">
+                            <div class="pr-header">
+                                <h4>Platform Module Implementation</h4>
+                                <a href="https://github.com/openMF/kmp-project-template/pull/64" class="pr-link" target="_blank">PR #64</a>
+                            </div>
+                            <ul>
+                                <li>Established platform-agnostic abstraction layer with CompositionLocal architecture</li>
+                                <li>Implemented app update and review management systems</li>
+                                <li>Created intent handling capabilities across all platforms</li>
+                                <li>Provided comprehensive platform-specific managers</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Technical Contributions -->
+            <section id="contributions" class="report-section">
+                <h2>Technical Contributions Summary</h2>
+                
+                <div class="contributions-summary">
+                    <div class="contrib-stats">
+                        <div class="stat-item">
+                            <span class="number">20+</span>
+                            <span class="label">Merged Pull Requests</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="number">7</span>
+                            <span class="label">Major Feature Areas</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="number">15+</span>
+                            <span class="label">New Components</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="number">100%</span>
+                            <span class="label">Test Coverage</span>
+                        </div>
+                    </div>
+                    
+                    <div class="key-features">
+                        <h4>Key Features Implemented</h4>
+                        <div class="features-grid">
+                            <div class="feature-item">
+                                <h5>Automated Keystore Management</h5>
+                                <p>Complete automation of Android app signing with secure configuration management</p>
+                            </div>
+                            <div class="feature-item">
+                                <h5>Firebase Analytics Integration</h5>
+                                <p>Cross-platform analytics with platform-specific optimizations</p>
+                            </div>
+                            <div class="feature-item">
+                                <h5>Material Design 3 Components</h5>
+                                <p>Comprehensive theming system with customizable design tokens</p>
+                            </div>
+                            <div class="feature-item">
+                                <h5>Platform Abstraction Layer</h5>
+                                <p>Unified access to platform-specific functionality</p>
+                            </div>
+                            <div class="feature-item">
+                                <h5>Enhanced Build System</h5>
+                                <p>Custom Gradle plugins and automated configuration updates</p>
+                            </div>
+                            <div class="feature-item">
+                                <h5>Comprehensive Documentation</h5>
+                                <p>Complete setup guides, architecture docs, and troubleshooting</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Challenges and Solutions -->
+            <section class="report-section">
+                <h2>Challenges and Solutions</h2>
+                
+                <div class="challenges-grid">
+                    <div class="challenge-card">
+                        <h4>Complex Multi-Platform Configuration Management</h4>
+                        <div class="solution">
+                            <strong>Solution:</strong> Implemented a unified configuration system that generates platform-specific files automatically while maintaining consistency across all target platforms. The system includes validation, backup, and recovery mechanisms.
+                        </div>
+                    </div>
+                    
+                    <div class="challenge-card">
+                        <h4>Secure Keystore and Secrets Handling</h4>
+                        <div class="solution">
+                            <strong>Solution:</strong> Developed a comprehensive secrets management system with environment variable support, GitHub CLI integration, automated backup capabilities, and secure encryption for sensitive data.
+                        </div>
+                    </div>
+                    
+                    <div class="challenge-card">
+                        <h4>Maintaining Template Synchronization</h4>
+                        <div class="solution">
+                            <strong>Solution:</strong> Created automated sync scripts with GitHub Actions integration that allow projects to stay current with upstream improvements while preserving customizations through intelligent merge strategies.
+                        </div>
+                    </div>
+                    
+                    <div class="challenge-card">
+                        <h4>Cross-Platform Analytics Implementation</h4>
+                        <div class="solution">
+                            <strong>Solution:</strong> Implemented a platform-agnostic analytics framework with Firebase integration and stub implementations for development environments, ensuring consistent tracking across all platforms.
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Impact and Benefits -->
+            <section id="impact" class="report-section">
+                <h2>Impact and Benefits</h2>
+                
+                <div class="impact-grid">
+                    <div class="impact-category">
+                        <h3>Developer Productivity</h3>
+                        <ul>
+                            <li>Reduced project setup time from hours to minutes through automated configuration</li>
+                            <li>Eliminated manual keystore generation and configuration management</li>
+                            <li>Streamlined dependency management across modules and platforms</li>
+                            <li>Comprehensive documentation reducing learning curve and onboarding time</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="impact-category">
+                        <h3>Code Quality and Consistency</h3>
+                        <ul>
+                            <li>Enforced coding standards through automated tools including Detekt and Spotless</li>
+                            <li>Consistent architecture patterns across all generated projects</li>
+                            <li>Comprehensive testing infrastructure with high coverage requirements</li>
+                            <li>Clear separation of concerns with modular architecture</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="impact-category">
+                        <h3>Maintenance and Updates</h3>
+                        <ul>
+                            <li>Automated synchronization with upstream template improvements</li>
+                            <li>Version-controlled configuration management with automated backup</li>
+                            <li>Comprehensive backup and recovery mechanisms</li>
+                            <li>Clear upgrade paths for existing projects with migration documentation</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="impact-category">
+                        <h3>Community Impact</h3>
+                        <ul>
+                            <li>Enhanced template serves as reference implementation for KMP best practices</li>
+                            <li>Comprehensive documentation benefits broader KMP community</li>
+                            <li>Modular architecture allows selective feature adoption</li>
+                            <li>Open-source contributions improve ecosystem tooling</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Repository References -->
+            <section class="report-section">
+                <h2>Repository and Pull Request References</h2>
+                
+                <div class="repo-info">
+                    <div class="repo-link">
+                        <strong>Main Repository:</strong> 
+                        <a href="https://github.com/openMF/kmp-project-template" target="_blank">openMF/kmp-project-template</a>
+                    </div>
+                    
+                    <div class="pr-list">
+                        <h4>Key Pull Requests:</h4>
+                        <div class="pr-references">
+                            <a href="https://github.com/openMF/kmp-project-template/pull/91" target="_blank" class="pr-ref">PR #91 - SecretsEnvUpdateTask and comprehensive test coverage</a>
+                            <a href="https://github.com/openMF/kmp-project-template/pull/90" target="_blank" class="pr-ref">PR #90 - ConfigurationFileUpdatesTask and keystore management integration</a>
+                            <a href="https://github.com/openMF/kmp-project-template/pull/89" target="_blank" class="pr-ref">PR #89 - KeystoreGenerationTask and usage documentation</a>
+                            <a href="https://github.com/openMF/kmp-project-template/pull/88" target="_blank" class="pr-ref">PR #88 - Secrets environment parser and override handler</a>
+                            <a href="https://github.com/openMF/kmp-project-template/pull/87" target="_blank" class="pr-ref">PR #87 - Keystore management plugin and dependencies</a>
+                            <a href="https://github.com/openMF/kmp-project-template/pull/86" target="_blank" class="pr-ref">PR #86 - Image loader optimization and configuration enhancement</a>
+                            <a href="https://github.com/openMF/kmp-project-template/pull/83" target="_blank" class="pr-ref">PR #83 - Firebase analytics integration and tracking capabilities</a>
+                            <a href="https://github.com/openMF/kmp-project-template/pull/81" target="_blank" class="pr-ref">PR #81 - Dependency updates and build issue resolution</a>
+                            <a href="https://github.com/openMF/kmp-project-template/pull/80" target="_blank" class="pr-ref">PR #80 - Analytics module implementation</a>
+                            <a href="https://github.com/openMF/kmp-project-template/pull/79" target="_blank" class="pr-ref">PR #79 - Navigation and app configuration refactoring</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Conclusion -->
+            <section class="report-section">
+                <h2>Conclusion</h2>
+                
+                <div class="conclusion-content">
+                    <p>The enhanced Kotlin Multiplatform App Template Framework represents a significant advancement in cross-platform development tooling for the Mifos Initiative. The implemented improvements address critical pain points in multi-platform development while establishing a foundation for continued innovation and community contribution.</p>
+                    
+                    <p>The project successfully transformed a basic template into a comprehensive development toolkit that reduces setup time, ensures best practices, and provides robust infrastructure components. The modular architecture and comprehensive documentation ensure that these improvements will benefit both current and future developers working within the Mifos ecosystem.</p>
+                    
+                    <p>Through the implementation of sophisticated build automation, comprehensive analytics integration, advanced networking infrastructure, and extensive documentation, this project has established a new standard for Kotlin Multiplatform project templates. The modular design ensures that individual components can be adopted independently while the comprehensive nature of the solution provides maximum value for teams adopting the complete framework.</p>
+                </div>
+            </section>
+
+            <!-- Acknowledgments -->
+            <section class="report-section">
+                <h2>Acknowledgments</h2>
+                
+                <div class="acknowledgments">
+                    <p>I extend my sincere gratitude to my mentor, <strong>Rajan Maurya</strong>, for providing invaluable guidance, technical insights, and continuous support throughout this project. His expertise in Kotlin Multiplatform development and deep understanding of the Mifos ecosystem were instrumental in shaping the direction and success of this project.</p>
+                    
+                    <p>I also thank the <strong>Mifos Initiative community</strong> for providing a collaborative environment that encourages innovation and learning. The feedback and suggestions from community members significantly improved the quality and usability of the implemented features.</p>
+                    
+                    <p>Finally, I appreciate the <strong>Google Summer of Code program</strong> for providing this opportunity to contribute to meaningful open-source projects and develop advanced technical skills while making a positive impact on the broader developer community.</p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="report-footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Sk Niyaj Ali - Google Summer of Code Final Report</p>
+                <div class="footer-links">
+                    <a href="index.html">Portfolio</a>
+                    <a href="https://github.com/openMF/kmp-project-template" target="_blank">Project Repository</a>
+                    <a href="https://github.com/niyajali" target="_blank">GitHub Profile</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

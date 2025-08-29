@@ -1,0 +1,28 @@
+{
+    "name": "Sk Niyaj Ali - Software Engineer Portfolio",
+    "short_name": "Niyaj Portfolio",
+    "description": "Portfolio website of Sk Niyaj Ali, Software Engineer specializing in Kotlin Multiplatform development and open source contributions",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#667eea",
+    "orientation": "portrait-primary",
+    "scope": "/",
+    "icons": [
+        {
+            "src": "https://github.com/niyajali.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "https://github.com/niyajali.png",
+            "sizes": "512x512", 
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "categories": ["portfolio", "developer", "kotlin", "android", "multiplatform"],
+    "lang": "en-US",
+    "dir": "ltr"
+}
