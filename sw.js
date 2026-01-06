@@ -1,12 +1,18 @@
-const CACHE_NAME = 'niyaj-portfolio-v1';
+const CACHE_NAME = 'niyaj-portfolio-v2';
 const urlsToCache = [
     '/',
     '/index.html',
     '/gsoc-report.html',
+    '/apps.html',
     '/assets/css/style.css',
     '/assets/css/report.css',
+    '/assets/css/apps.css',
     '/assets/js/main.js',
     '/manifest.json',
+    '/legal/savvy/privacy-policy.html',
+    '/legal/savvy/terms.html',
+    '/legal/savvy/data-deletion.html',
+    '/legal/savvy/eula.html',
     'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap',
     'https://github.com/niyajali.png'
 ];

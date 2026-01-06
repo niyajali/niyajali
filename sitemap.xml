@@ -32,4 +32,39 @@
         <priority>0.1</priority>
     </url>
 
+    <url>
+        <loc>https://niyajali.github.io/niyajali/apps.html</loc>
+        <lastmod>2025-01-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://niyajali.github.io/niyajali/legal/savvy/privacy-policy.html</loc>
+        <lastmod>2025-01-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>https://niyajali.github.io/niyajali/legal/savvy/terms.html</loc>
+        <lastmod>2025-01-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>https://niyajali.github.io/niyajali/legal/savvy/data-deletion.html</loc>
+        <lastmod>2025-01-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>https://niyajali.github.io/niyajali/legal/savvy/eula.html</loc>
+        <lastmod>2025-01-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
 </urlset>
